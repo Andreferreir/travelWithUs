@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_blue_bright"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/tvTitle"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:hint="Cidade"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/tvBody"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="País"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/tvpost"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:hint="POST"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:clickable="true"
+            android:text="Submit"
+            android:textColor="#5DBCD2"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</FrameLayout>
